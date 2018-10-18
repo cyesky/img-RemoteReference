@@ -95,4 +95,31 @@
 </body>
 ```
 > 温馨提示：如果两边不设置padding内容将会被隐藏。
-
+#### 第三种布局方式 ”Flex 弹性布局“
+```
+<section class="layout flex">
+           <style media="screen">
+               .left-right-center{
+                   display: flex;
+               }
+               .left-right-center .left,.left-right-center .right{
+                   background-color: blue;
+                   width:300px;
+               }
+               .left-right-center .center{
+                   flex: 1;
+               }
+           </style>
+           <article class="left-right-center">
+               <div class="left"></div>
+               <div class="center">
+                    <h1>通过弹性布局来实现</h1>
+                     这是三栏的中间部分
+                </div> 
+               <div class="right"></div>
+           </article>
+       </section>
+```
+> 温馨提示：建议还不明白弹性盒子模型的，可以参考[弹性布局教程](https://www.runoob.com/w3cnote/flex-grammar.html)!
+#### 第四种布局方式 ”表格布局“
+```

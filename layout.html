@@ -20,37 +20,26 @@
     </style>
 
 <body>
-       <section class="layout absolute">
+       <section class="layout flex">
            <style media="screen">
                .left-right-center{
-                   position: relative;
+                   display: flex;
                }
-               .layout .left{
-                   width: 300px;
-                   position: absolute;
-                  border: 3px solid #ccc;
-                  left: 0;
-                  top: 0;
+               .left-right-center .left,.left-right-center .right{
+                   background-color: blue;
+                   width:300px;
                }
-               .layout .right{
-                   right: 0;
-                   top: 0;
-                   position: absolute;
-                   width: 300px;
-                   border: 3px solid #ccc;
-               }
-               .layout .center{
-                   border: solid 2px red;
-                   padding: 0 300px 0 300px;
+               .left-right-center .center{
+                   flex: 1;
                }
            </style>
            <article class="left-right-center">
                <div class="left"></div>
-               <div class="right"></div>
                <div class="center">
-                   <h1>通过绝对定位来实现</h1>
-                    这是三栏的中间部分
-               </div> 
+                    <h1>通过弹性布局来实现</h1>
+                     这是三栏的中间部分
+                </div> 
+               <div class="right"></div>
            </article>
        </section>
 </body>
