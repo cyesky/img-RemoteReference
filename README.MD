@@ -1,10 +1,10 @@
 ## 面试技巧（ 基本技能篇 初次面试 ）
-### 目录
+### 目录
 ---------------------
 * 页面布局
 * CSS 盒子模型
 * Dom 事件
-* HTTP 协议
+* HTTP协议
 * 面向对象
 * 原型链
 * 通信
@@ -14,6 +14,7 @@
 #### 页面布局
 + 页面布局案例
 > 题目：假设高度已知,请写出三栏布局,其中左右栏宽度为300PX,中间自适应，如下图：
+![布局图片](https://github.com/CaiweiGG/img-RemoteReference/blob/master/images/imagesMD/FirstInterview/tableDemo.jpg)
 
 
 
